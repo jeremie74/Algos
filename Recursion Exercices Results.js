@@ -11,6 +11,11 @@ function factorial(x){
    if (x <= 1 ) return 1;
    return x * factorial(x-1);
 }
+//5 * 4 = 20
+//20 * 3 = 60
+//60 * 2 = 120
+//120 * 1 = 120
+
 //PRODUCT OF ARRAY SOLUTION
 //Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
 function productOfArray(arr) {
